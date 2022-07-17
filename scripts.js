@@ -5,3 +5,7 @@ $("#firstButton").click(() => {
 $("#secondButton").click(() => {
     $("#firstButton").text("Clicked");
 })
+
+$("#thirdButton").click(() => {
+    $("button").css("background-color","red");
+})
